@@ -4,26 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="Styles.css">
 </head>
 <body>
-    <div class="nav">
-        <img src="./Images/logo.svg" alt="logo" width="100px">
-        Signup
-        About
-        Products
-        Pricing Support
-    </div>
 
-    <center>
+    <div class="nav" style="margin-right: 100px; margin-left: 100px; display: flex; justify-content: space-between;">
+        <img src="./Images/logo.svg" alt="logo" width="100px;">
+
+        <div class="nav-right" style="display: flex; justify-content: right;" >
+            <div>Signup</div>
+            <div>About</div>
+            <div>Products</div>
+            <div>Pricing</div>
+            <div>Support</div>
+        </div>   
+        
+    </div>
+    <div class="section-1">  
 
         <div class="landing">
-            <img src="Images/landing.png" alt="landing Photo" width="80%">
-            <h1>Invest in Everything</h1>
-            <h5>Online platform to invest in stocks, derivatives, mutual funds, and more</h5>
-            <button>Sign Up Now</button>
-            
+             <div  style="display:flex; justify-content: center;"><img src="Images/landing.png" alt="landing Photo" width="80%"> </div>                                            
+            <h1 style="display: flex; justify-content: center;">Invest in Everything</h1>
+            <h5 style="display: flex; justify-content: center;">Online platform to invest in stocks, derivatives, mutual funds, and more </h5>
+            <div style="display: flex; justify-content: center; ">
+                <div style="background-color: cadetblue; padding: 50px; border-radius: 3px; font-size: 20px; cursor: pointer; ">Sign Up Now</div>
         </div>
-    </center>
+        </div>
+    
+    </div>
         
 </body>
 </html>
