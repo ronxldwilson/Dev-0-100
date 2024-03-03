@@ -32,3 +32,4 @@ function sub(a,b){
 const value = calculate(1,2,sub);
 console.log(value);
 
+console.log(sum);
