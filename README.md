@@ -42,5 +42,55 @@ Callback functions in JS
 
 ```
     
+Epoch Timestamp - How many milisecond has passed since 1970 has passed
+received in JS via obj.getTime();
 
+### JSON - Javascript Object Notation
+
+
+Two important functions for JSON are JSON.stringyfy and JSON.parse
+### Anonymous functions
+
+
+``` Javascript 
+
+function calculate(n, callback){
+    return callback(n);
+}
+
+console.log(calculate(3,function (n){
+    return n*n;
+}));
+
+// Here the function is not given a name, an unanmed function is an anonymous function
+
+```
+### Async function 
+
+Async function are functions that do not block the main thread of JS and allows following lines to execute without any blocking
+
+Examples of Asynchronus functions:
+    1. SetTimout
+    2. fs.readFile - To read file from local filesystem
+    3. Fetch - to fetch some data from an API end point
+
+### Sync Function
+
+### Real use of Callbacks
+
+## JS Browser architecture
+
+
+
+Call Stack -   
+Web APIs - 
+Callback queue - 
+
+
+## Promises 
+
+If you are using promises then you don't use callbacks
+// Will continue later
+
+## Async Await
 
