@@ -14,24 +14,30 @@
 */
 
 function calculateTotalSpentByCategory(transactions) {
-  
-  class output {
-    category;
-    total;
-  }
-  // an array to store all the categories in an array
-  let i =0;
-  transactions.forEach(i => {
-      
-      transactions[i]["category"];
-  });
+	// First iteration over the object to find all categories in the transaction objects
+	// Finding the unique Categories
+	// Iterations over the Transaction and check which category it fits in add add the spent in it
+	//
 
-  transactions.forEach( i => {  
+	let i = 0;
+	let allArray = [];
+	transactions.forEach(i => {
+		allArray.push(transactions[i]["category"]);
+	});
 
+	//Now finding the uniques 
 
-    output = transactions[i]["category"];
-  });
-  return [output];
+	const uniqueArray = new Set(allArray);
+
+	// Now iterating over the transactions object and simultaneously adding sum
+	let output;
+	i = 0;
+	let obj ={};
+	transactions.forEach(i => {
+		let category = transactions[i]["category"];
+		
+	});
+	return [];
 }
 
 module.exports = calculateTotalSpentByCategory;
