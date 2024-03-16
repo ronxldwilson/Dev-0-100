@@ -89,7 +89,10 @@ Callback queue -
 
 ## Promises 
 
-If you are using promises then you don't use callbacks
+If you are using promises then we don't use callbacks
+
+Promises 
+
 // Will continue later
 
 ## Async Await
